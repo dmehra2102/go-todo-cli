@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("Inside main function")
-
+	todos := Todos{}
+	storage := NewStorage[Todos]("todos.json")
+	storage.Load(&todos)
+	todos.add("Buy Milk")
+	todos.add("Buy Bread")
+	todos.toggle(0)
+	todos.print()
+	storage.Save(todos)
 }
