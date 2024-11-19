@@ -7,8 +7,14 @@
     },
     {
         "Title": "Buy Bread",
-        "Completed": false,
+        "Completed": true,
         "CreatedAt": "2024-11-19T18:57:09.7805915+05:30",
+        "CompletedAt": "2024-11-19T19:31:52.4196047+05:30"
+    },
+    {
+        "Title": "Learn go language",
+        "Completed": false,
+        "CreatedAt": "2024-11-19T19:33:01.5938648+05:30",
         "CompletedAt": null
     }
 ]
